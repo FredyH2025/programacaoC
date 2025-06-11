@@ -52,8 +52,8 @@ int main() {
     scanf("%2s", estado2);  // Lê até 2 chars para estado2[3]
     while ((ch = getchar()) != '\n' && ch != EOF);  // Limpa buffer
 
-    printf("Digite o codigo da carta 2 (ex: B02): ");
-    scanf("%3s", codigo2);
+    printf("Digite o codigo da carta 2 (ex: B02): ");  // Entrar com a informação do código
+    scanf("%3s", codigo2); // Lê até 3 chars para codigo2[4]
     while ((ch = getchar()) != '\n' && ch != EOF);  // Limpa buffer
 
     printf("Digite a cidade da carta 2: ");  // Entra com a informação da cidade
