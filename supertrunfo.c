@@ -82,12 +82,12 @@ int main() {
      // Cálculos - Carta 1
     densidade1 = populacao1 / area1;  // Cálculo da densidade demográfica
     pib_per_capita1 = (pib1 * 1000000000) / populacao1; // Cálculo da Pib per Capita
-        super_poder1 = (float)populacao1 + area1 + (pib1 * 1000000000) + pontostur1 + pib_per_capita1 + (1.0f / densidade1);
+    super_poder1 = (float)populacao1 + area1 + (pib1 * 1000000000) + pontostur1 + pib_per_capita1 + (1.0f / densidade1); // Soma atributos da carta
     
      // Cálculos - Carta 2
     densidade2 = populacao2 / area2;  // Cálculo da densidade demográfica
     pib_per_capita2 = (pib2 * 1000000000) / populacao2;  // Cálculo da Pib per Capita
-    super_poder2 = (float)populacao2 + area2 + (pib2 * 1000000000) + pontostur2 + pib_per_capita2 + (1.0f / densidade2);
+    super_poder2 = (float)populacao2 + area2 + (pib2 * 1000000000) + pontostur2 + pib_per_capita2 + (1.0f / densidade2); // Soma atributos da carta 
 
 
     // Exibindo os dados das cartas
@@ -123,9 +123,6 @@ int main() {
     printf("Densidade Populacional: Carta 1 venceu (%d)\n", densidade1 < densidade2);  // menor vence
     printf("PIB per Capita: Carta 1 venceu (%d)\n", pib_per_capita1 > pib_per_capita2);  // maior vence
     printf("Super Poder: Carta 1 venceu (%d)\n", super_poder1 > super_poder2);  // maior vence
-
-    return 0;
-}
 
     return 0;
 }
