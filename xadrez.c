@@ -30,5 +30,26 @@ int main() {
         contadorRainha++;                          // contadorRainha vai sendo incrementado
     } while (contadorRainha < movimentoRainha);    // enquanto o contadorRainha for menor do que o movimentoRainha, a Rainha se movimenta para a esquerda
 
+    printf("\n");
+
+    
+    // Movimentação do Cavalo: movimento em "L" (2 para baixo, 1 para esquerda)
+    // Usando 'for' + 'while' (loops aninhados)
+    int movimentosL = 1;  // Quantas vezes queremos simular o movimento em L (pode ser aumentado)
+    printf("Movimento do Cavalo:\n");
+
+    for (int i = 0; i < movimentosL; i++) {
+        // Primeiro: 2 casas para baixo
+        int passosBaixo = 0;
+        while (passosBaixo < 2) {      
+            printf("Baixo\n");             // mostra os movimentos do Cavalo para baixo
+            passosBaixo++;           
+        }
+
+        // Depois: 1 casa para esquerda
+        printf("Esquerda\n");             // mostra o movimento do Cavalo para a esquerda
+    }
+
+    
     return 0;
 }
