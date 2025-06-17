@@ -38,7 +38,7 @@ int main() {
     int movimentosL = 1;  // Quantas vezes queremos simular o movimento em L (pode ser aumentado)
     printf("Movimento do Cavalo:\n");
 
-    for (int i = 0; i < movimentosL; i++) {
+    for (int i = 0; i < movimentosL; i++) {   // mostra o cavalo iniciando seu movimento
         // Primeiro: 2 casas para baixo
         int passosBaixo = 0;
         while (passosBaixo < 2) {      
