@@ -7,7 +7,7 @@
 void exibirTabuleiro(int tabuleiro[N][N]) {     // tabuleiro tamanho 10 x 10
     for (int i = 0; i < N; i++) {               
         for (int j = 0; j < N; j++) {
-            printf("%d ", tabuleiro[i][j]);
+            printf("%d ", tabuleiro[i][j]);     // matriz 10 x 10    
         }
         printf("\n");
     }
@@ -33,9 +33,9 @@ int main() {
 
     // Definindo as coordenadas iniciais dos navios
     // Navio horizontal: começa na linha 2, coluna 3
-    int linhaHorizontal = 2, colunaHorizontal = 3;
+    int linhaHorizontal = 2, colunaHorizontal = 3;       // localização do navio horizontal   
     // Navio vertical: começa na linha 5, coluna 5
-    int linhaVertical = 5, colunaVertical = 5;
+    int linhaVertical = 5, colunaVertical = 5;           // localização do navio vertical
 
     // Tamanho dos navios
     int tamanhoNavio = 3;
