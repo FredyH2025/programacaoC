@@ -46,7 +46,7 @@ int main() {
 
     // Exibindo o tabuleiro
     printf("Tabuleiro com os navios posicionados:\n"); 
-    exibirTabuleiro(tabuleiro);                          // mostra os navios posicionados
+    exibirTabuleiro(tabuleiro);                          // mostra os navios posicionados no tabuleiro
 
     return 0;
 }
